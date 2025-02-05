@@ -23,7 +23,7 @@ function Navbar({displaySideBar,isSideBar}) {
     )}
 <nav className="flex flex-row justify-between gap-3 items-center px-5 pt-2 pb-4" onClick={(e)=>e.stopPropagation()}>
     <div className="rounded-full justify-center flex flex-row gap-3 items-center">
-  
+   
 
     <h1 className="text-3xl  font-bold tracking-wide">Mugomarbles bakery
     </h1>
