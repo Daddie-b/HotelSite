@@ -23,11 +23,7 @@ function Navbar({displaySideBar,isSideBar}) {
     )}
 <nav className="flex flex-row justify-between gap-3 items-center px-5 pt-2 pb-4" onClick={(e)=>e.stopPropagation()}>
     <div className="rounded-full justify-center flex flex-row gap-3 items-center">
-        <img 
-            className="w-[60px] h-[60px] rounded-full bg-transparent" 
-            src="https://image.similarpng.com/very-thumbnail/2021/07/Chef-restaurant-logo-illustrations-template-on-transparent-background-PNG.png" 
-            alt="" 
-        />
+    
 
     <h1 className="text-3xl  font-bold tracking-wide">Mugomarbles bakery
     </h1>
